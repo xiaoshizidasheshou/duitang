@@ -1,0 +1,41 @@
+/*------------------banner--------------------*/
+#banner{height:660px;padding-top:64px;}
+#banner #banner_left{height:611px;width:400px;float:left;position:relative;}
+#banner #banner_right{height:611px;width:676px;margin-left:52px;float:left;}
+#banner #banner_right{height:50px;color:#666;line-height:50px;font-size:12px;}
+#contact a{margin-left: 10px;color:#888;font-size:12px;height:50px;line-height: 50px}
+#contact a:hover{color:red;}
+/*----------------------goods-------------------*/
+#good_div{width:1157px;height:auto;border:1px solid #eee;margin-bottom:20px}
+#good_div button{height:52px;width:147px;background:#fff;}
+#good_div .active{color:red;}
+/*商品详情*/
+.goods-disc-con{width:1065px;margin-top: 20px;margin-bottom:50px;overflow: hidden;margin-left:45px}
+.goods-disc-con .tit{width: 1065px;height: 30px;border-bottom: 1px solid #b0b0b0;margin-bottom: 15px;}
+.goods-disc-con .tit span{float:left;height: 30px;border-bottom: 1px solid #ff3355;line-height: 30px;color: #333;font-size: 14px;font-weight: bolder;}
+.goods-disc-con ul{width: 1065px;margin-top: 10px;}
+.goods-disc-con ul li{float:left;width:217px;height:24px;
+line-height:24px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
+padding-right:49px;font-size:12px;color:#666}
+
+table{border-collapse:collapse;border-spacing:0;font-size:12px;color:#666}
+tr{min-height:30px;}
+td{border: 1px solid #e6e6e6;text-align:center;height:30px;width:90px;
+}}
+.goods-disc-con p em{color:#ff3355}
+.goods-disc-con img{margin-left:150px}
+.goods-disc-con p{margin-bottom: 15px;font-size:12px;color:#666;}
+/*评价*/
+.g-main #evaluate{padding:35px;font-size:12px;color:#666}
+/*售后*/
+.g-main dl{margin-top: 34px;margin-top: 34px;margin-left:45px;margin-bottom:23px}
+.g-main dl dt{font-size: 14px;font-weight: bolder;color: #333;width:1000px;}
+.g-main dl dd{font-size: 14px;margin-top:12px;width:1070px;color:#666;}
+/*咨询*/
+/*-------------------footer----------------------------*/
+#footer{height:270px;border-bottom:1px solid #d5d6d6;background:#e1e2e3;}
+#footer_1,#footer_2,#footer_3,#footer_4,#footer_5{border-right:1px solid #cfd0d1;width:239px;height:159px;float:left;margin-top:20px;}
+#footer div p{font-size: 12px;color:#444;height:44px;line-height:44px;margin-left: 33px;width:180px;}
+#last_div{height:36px;width:696px;margin-top:38px;font-size: 12px;color:#888;float:left;margin-left:253px;}
+
+

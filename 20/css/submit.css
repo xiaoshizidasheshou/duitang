@@ -1,0 +1,17 @@
+ #header #header_right{width:500px;margin-left:600px;}
+/* ---------------------submit------------------------*/
+#submit{height:650px;padding-top:65px;}
+#submit .wrap{height:600px;padding-top:40px;}
+#submit h3{height:69px;text-align:center;margin-top:22px;font-size:24px;line-height:69px;font-weight:bold;color:#444;margin-bottom:22px;}
+#submit p {margin-left:390px;font-size:14px}
+#submit p input{height:40px;width:327px;border:1px solid #dedede;margin-bottom:20px;border-radius:4px;text-align:10px}
+#submit #test{width:254px;}
+#test_but{width:70px;height:40px;font-size:12px}
+#password{margin-left:15px;}
+#submit #submit2{height:40px;margin-left:390px;width:400px;background:#f62959;color:#fff;text-align:center;font-weight:bold;border-radius:4px;line-height: 40px;cursor:pointer;}
+/* ---------------------footer------------------------*/
+#footer{height:270px;border-bottom:1px solid #d5d6d6;background:#e1e2e3;}
+#footer .wrap{height:270px;}
+#footer_1,#footer_2,#footer_3,#footer_4,#footer_5{border-right:1px solid #cfd0d1;width:239px;height:159px;float:left;margin-top:20px}
+#footer div p{font-size: 12px;color:#444;height:44px;line-height:44px;margin-left: 33px;width:180px;}
+#last_div{height:36px;width:696px;margin-top:38px;font-size: 12px;color:#888;float:left;margin-left:253px;}

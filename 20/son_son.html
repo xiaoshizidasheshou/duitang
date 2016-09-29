@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<link style = "text/css" rel = "stylesheet" href = "css/common.css">
+	<link style = "text/css" rel = "stylesheet" href = "css/son_son.css">
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/son_son.js"></script>
+	
+</head>
+	<body>
+		<!--*************************header*************************-->
+		<div id = "header">
+			<div class = "wrap">
+				<a href = "http://10.30.162.27/code3/duitang/index.html"><img src = "images/logo.png"/></a>
+				<div id = "header_list">
+					<p id = "header_but"><a id = "list" href = "#">分类</a><img class = "img2" src="images/down.png"/></p>
+					<div id = "header_nav">
+						<div id = "nav_left">
+						</div>
+						<div id = "nav_right">
+						</div>
+					</div>
+				</div>
+				<div id = "search">
+					<input id = "txt" type = "text" placeholder = "搜索感兴趣的内容"/>
+					<input id = "but" type = "button" value = "搜索"/>
+				</div>
+				<div id = "header_right">
+					<p><a href="#">堆糖生活家<span id = "new">new</span></a></p>
+					<p id = "sub" style="background:#fff;z-index:11;position:relative"><a id = "submit" href="#" style="background:#fff;color:#666;line-height:20px;">购物车<span style="color:red">0</span></a></p>
+					<div id = "car" style="position:absolute;background:#fff;height:100px;width:245px;top:53px;border:1px solid #eee;z-index:10;display:none">
+					</div>
+					<p><a href="#">退出</a></p>
+					<p id = 'phone'><a href="#"><img id = "img1" src="images/phone.png"/>手机版<img class = "img2" src="images/down.png"/></a></p>
+					<div id = "barcode"></div>
+				</div>
+			</div>
+		</div>
+		<!--*************************banner*************************-->
+		<div id = "banner">
+			<div class = "wrap">
+				<p id = 'contact'><a href = "http://10.30.162.27/code3/duitang/index.html">首页></a><a href = "http://10.30.162.27/code3/duitang/son.html">裙装></a><a href = "">韩版格子连衣裙女装宽松显瘦灯笼袖拼接圆领a字短裙</a></p>
+				<div id = "banner_left"></div>
+				<div id = "banner_right"></div>
+			</div>
+		</div>
+		<!--*************************goods*************************-->
+		<div id = "goods">
+			<div class = "wrap">
+				<div id = 'good_div'>
+					<button class = "active">商品详情</button>
+					<button>商品评价</button>
+					<button>售后保障</button>
+					<button>商品咨询</button>
+					<div class="g-main">
+   					<!--商品描述-->
+					   	<div class="goods_disc content_box1">
+					   	    <div class="goods-disc-con">
+						        <div class="tit">
+						           <span>商品参数</span>
+						       	</div>
+						       	<ul>
+									<li>货号：317#</li>
+									<li>风格：通勤</li>
+									<li>通勤：韩版</li>
+									<li>组合形式：单件</li>
+									<li>裙长：中长裙</li>
+									<li>袖长：七分袖</li>
+									<li>领型：圆领</li>
+									<li>腰型：中腰</li>
+									<li>衣门襟：套头</li>
+									<li>图案：格子</li>
+									<li>品牌：other/其他</li>
+									<li>适用年龄：25-29周岁</li>
+									<li>年份季节：2016年秋季</li>
+									<li>颜色分类：深蓝色</li>
+									<li>尺码：S,M,L,XL,2XL,3XL,4XL</li>
+						       	</ul>
+					    	</div>
+					    
+						<div class="goods-disc-con">
+					         <div class="tit">
+					             <span>发货物流</span>
+					         </div>
+					         <p>发货时间：支付成功后，24小时发货</p>
+					         <p>发货快递：圆通快递</p>
+					     </div>
+					        <div class="goods-disc-con">
+					        <div class="tit">
+					            <span>商品尺码</span>
+					        </div>
+					        <table class="detail-sizeTable" cellspacing="0" cellpadding="0" align="center">
+								<tr class="tit">
+					                <td>尺码</td>
+	            	                <td>肩宽(CM)</td>
+	            	                <td>胸围(CM)</td>
+	            	                <td>腰围(CM)</td>
+	            	                <td>臀围(CM)</td>
+	            	                <td>裙长(CM)</td>
+	            	                <td>袖长(CM)</td>
+	            	                <td>袖口(CM)</td>
+	            	                <td>下摆(CM)</td>
+	            	            </tr>
+	            
+	                            <tr>
+	            	                <td>S</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                        	<tr>
+	            	                <td>M</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                        	<tr>
+	            	                <td>L</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                       		<tr>
+	            	                <td>XL</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                        	<tr>
+	            	                <td>2XL</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                        	<tr>
+	            	                <td>3XL</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+	                        	<tr>
+	            	                <td>4XL</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                                <td>-</td>
+	                            </tr>
+					         </table>
+	         				<p style="clear:both; padding-top:5px;">温馨提示：<em>以上均为手工平铺测量，会有1-3cm的误差，请以实物为准。</em></p> 
+	         				<img src = "images/show1.jpg">
+	         				<img src = "images/show2.jpg">
+	         				<img src = "images/show3.jpg">
+	         				<img src = "images/show4.jpg">
+	         				<img src = "images/show5.jpg">
+	         				<img src = "images/show6.jpg">
+	         				<img src = "images/show7.jpg">
+     						</div>
+     					</div>
+     				</div>
+					<div class = "g-main">
+						 <p id = "evaluate">评价正在来的路上，暂时还没有评论哦。
+						 </p>
+					</div>
+					<div class = "g-main">
+						<dl>
+							<dt>无忧售后</dt>
+							<dd>惠品折特卖平台全部商品，均由惠品折特卖客服协助处理售后问题，实现售后无忧。</dd>
+						</dl>
+						<dl>
+							<dt>无理由退货</dt>
+							<dd>惠品折特卖商家支持7天无理由退货，提供消费者保障服务。确保每一位消费者提供完善的售后服务，放心购物。</dd>
+						</dl>
+					</div>
+					<div class = "g-main">
+						<dl>
+							<dt>商品都是正品吗？品质有保障吗？</dt>
+							<dd>请放心，惠品折特卖所售卖的商品均经过品牌授权，确保正品。所有特卖的商品均由惠品折质检专员抽样验货，确保为用户提供高性价比的商品。</dd>
+						</dl>
+						<dl>
+							<dt>如何选择尺码？</dt>
+							<dd>惠品折特卖商品在详情页面会放置所售商品的尺寸表，可能会存在1-3cm的正常误差范围。建议您以平时购买尺寸对照选择，也可参考评价。如果实在拿不准，建议买大不买小。</dd>
+						</dl>
+						<dl>
+							<dt>订单什么时候发货？快递信息为什么没有更新？</dt>
+							<dd>正常情况下，下单完成支付后，系统就会通知惠品折特卖商品的供应商开始发货。发货后，您可以在我的订单中查看发货状态。由于部分快递公司无法实时更新信息， 因此您看到的物流信息有可能会延迟。</dd>
+						</dl>
+						<dl>
+							<dt>订单使用什么快递发货？如何收费？</dt>
+							<dd>惠品折特卖商品的供应商会在商品详情里填写默认快递，也会根据您的地址自动匹配当地运营较好的快递公司。如果有什么特殊需求，可在提交订单时留意备注。惠品折特卖商品实行全场包邮，除部分偏远地区外（如新疆、西藏、内蒙古、宁夏、甘肃、青海等），您无需承担邮费。
+							</dd>
+						</dl>
+						<dl>
+							<dt>网站上显示的市场价和实体店的售价一致吗？价格还可以再少吗？</dt>
+							<dd>惠品折特卖商品的价格采集自品牌官网标价、专柜标价或由品牌供应商提供。由于地区或时间的差异性，可能与您购物时的市场价不一致。标注的参考价仅供参考，不作为购物依据。
+							特卖商品抢购价是惠品折特卖平台砍价师与供应商多次协商后确定的，以确保最大程度让利给用户。
+							</dd>
+						</dl>
+						<dl>
+							<dt>购买后不喜欢能退货吗？</dt>
+							<dd>您的商品在签收，未完成确认收货的7天内，商品不影响二次销售的情况下，惠品折特卖支持七天无理由退货服务。</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- *************************footer************************** -->
+		<div id = "footer">
+			<div class = "wrap">
+				<div id ='footer_1'>
+					<p>关于我们</p>
+				</div>
+				<div id ='footer_2'>
+					<p>手机应用</p>
+				</div>
+				<div id ='footer_3'>
+					
+				</div>
+				<div id ='footer_4'>
+					<p>关注我们</p>
+				</div>
+				<div id ='footer_5'>
+					<p>友情链接</p>
+				</div>
+				<div id = "last_div">
+				<span>©2015 duitang.com 版权所有。沪ICP备10038086号-3</span>
+				</div>
+			</div>
+		</div>
+		<!-- *************************right************************** -->
+	<div id = "right0">
+		<div id = "right1"></div>
+		<div id = "right2"></div>
+		<div id = "right3"></div>
+	</div>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+/*---------------------banner------------------*/
+#banner{z-index:22;height:321px;padding-top:64px;background:#f1f2f3;}
+#banner .wrap{position:relative;}
+/*---------------------img------------------*/
+#img{height:5200px;background:#f1f2f3;border-bottom: 1px solid #d5d6d1}
+#change{height:55px;border-bottom:1px solid #d5d6d1;}
+#img #ul_id{height:2631px;width:1202px;}
+#img li{width:222px;float:left;list-style:none;margin-right:20px;}
+#img li #div_id {border:1px solid #d5d6d1;margin-top:20px;background:#fff}
+#img li div img{width:222px;display:block;}
+#span1,#span2,#span3,#span4{margin-top:15px;}
+#hover_span1{background:url(../images/falls_bg.png)no-repeat -4px -4px;display:inline-block;height:17px;width:17px;margin-right:4px;margin-top:7px;float:left;}
+#hover_span2{background:url(../images/falls_bg.png)no-repeat -28px -4px;display:inline-block;height:17px;width:17px;margin-left:7px;float:left;}
+#hover_span3{background:url(../images/falls_bg.png)no-repeat -53px -4px;display:inline-block;height:17px;width:17px;margin-left:7px;float:left;}
+#img #button{height:35px;width:49px;background:#fa405a;border-radius:3px;margin-left:573px;color:#fff;font-weight:bold;cursor:pointer;margin-top:50px;}
+/*---------------------footer------------------*/
+#footer{height:70px;}
+#footer ul li {float:left;margin-top:18px;height:36px;font-size:12px;line-height:39px;border-left:1px solid #cfd0d1;padding:0 17px;}
+#footer #footer0{border-left:0px;padding:0;}
+#footer #footer1,#footer #footer2{padding:0;}
+#footer1{height:34px;width:100px;border:1px solid #d0cfcb;background:url(../images/common_bg.png) no-repeat -799px -540px;margin-left: 5px;margin-right: 18px;}
+#footer2{height:34px;width:110px;border:1px solid #d0cfcb;background:url(../images/last_img3.png) no-repeat;margin-right: 16px;}
